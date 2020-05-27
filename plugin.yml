@@ -1,0 +1,9 @@
+name: LuckBadLuck
+main: LuckBadLuck\Main
+author: FreakingDev changed by bruno
+version: 1
+api: [3.0.0, 4.0.0]
+
+commands:
+ luckbadluck:
+     description: Add LuckBadLuck
