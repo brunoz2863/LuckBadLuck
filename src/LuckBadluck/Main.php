@@ -43,13 +43,7 @@ class Main extends PluginBase implements Listener{
       $this->getLogger()->info("Fixed plugin, changed by bruno <The code is not mine>");
      }
 
-#=========================================================================================================================#
-
-    public function onRun(int $tick) : void{        
-           $touch->processCoolDown();
-    }
-
-#=========================================================================================================================#
+#=========================================================================================================================#  
     
     public function onJoin(PlayerJoinEvent $e){
      $p = $e->getPlayer();
